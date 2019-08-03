@@ -1,22 +1,22 @@
 $.timeago.settings.strings = {
-  prefixAgo: &#39;&#39;,
-  suffixAgo: &#39;trước&#39;,
-  suffixFromNow: &#39;trước&#39;,
-  seconds: &#39;chưa đến một phút&#39;,
-  minute: &#39;khoảng một phút&#39;,
-  minutes: &#39;%d phút&#39;,
-  hour: &#39;khoảng một tiếng&#39;,
-  hours: &#39;khoảng %d tiếng&#39;,
-  day: &#39;một ngày&#39;,
-  days: &#39;%d ngày&#39;,
-  month: &#39;khoảng một tháng&#39;,
-  months: &#39;%d tháng&#39;,
-  year: &#39;khoảng một năm&#39;,
-  years: &#39;%d năm&#39;,
-  wordSeparator: &#39; &#39;,
+  prefixAgo: '',
+  suffixAgo: 'trước',
+  suffixFromNow: 'trước',
+  seconds: 'chưa đến một phút',
+  minute: 'khoảng một phút',
+  minutes: '%d phút',
+  hour: 'khoảng một tiếng',
+  hours: 'khoảng %d tiếng',
+  day: 'một ngày',
+  days: '%d ngày',
+  month: 'khoảng một tháng',
+  months: '%d tháng',
+  year: 'khoảng một năm',
+  years: '%d năm',
+  wordSeparator: ' ',
   numbers: []
 };
-$(&#39;time.timeago&#39;).timeago();
+$('time.timeago').timeago();
 
 ! function(t) {
   "function" == typeof define && define.amd ? define(["jquery"], t) : t("object" == typeof module && "object" == typeof module.exports ? require("jquery") : jQuery)
